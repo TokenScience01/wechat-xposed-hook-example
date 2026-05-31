@@ -18,7 +18,6 @@
 3. 将传入参数写入 Xposed 日志。
 4. 参数等于 `Test` 时，通过 `param.setResult(true)` 跳过原方法并返回 `true`。
 
-更详细的原始教程：[52pojie 论坛帖子](https://www.52pojie.cn/thread-748349-1-1.html)。
 
 ## 项目状态
 

@@ -18,7 +18,6 @@ The current example in [`HookMain.java`](app/src/main/java/HookMain.java) perfor
 3. Writes the input argument to the Xposed log.
 4. Calls `param.setResult(true)` to skip the original method and return `true` when the argument equals `Test`.
 
-Original tutorial in Chinese: [52pojie forum post](https://www.52pojie.cn/thread-748349-1-1.html).
 
 ## Project Status
 

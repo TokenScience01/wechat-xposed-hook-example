@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+
 import de.robv.android.xposed.IXposedHookLoadPackage;
 import de.robv.android.xposed.XC_MethodHook;
 import de.robv.android.xposed.XposedBridge;

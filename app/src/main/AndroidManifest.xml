@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.jionego.WeChatMsgHook">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
         android:allowBackup="true"
@@ -9,7 +8,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,7 +26,7 @@
         <!-- 模块描述，显示在xposed模块列表那里第二行 -->
         <meta-data
             android:name="xposeddescription"
-            android:value="Hook微信测试模块" />
+            android:value="微信 Xposed Hook 学习示例 / WeChat Xposed hook example" />
 
         <!-- 最低xposed版本号(lib文件名可知) -->
         <meta-data

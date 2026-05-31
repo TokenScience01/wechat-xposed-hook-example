@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">WeChatMsgHook</string>
+    <string name="app_name">WeChat Xposed Hook Example</string>
+    <string name="module_status">WeChat Xposed Hook Example module</string>
 </resources>
